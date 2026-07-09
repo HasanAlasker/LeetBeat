@@ -1,4 +1,5 @@
 import { calPoints } from "./src/baseballGame.js";
+import { clearDigits } from "./src/clearDigits.js";
 import { sumAndMultiply } from "./src/concatenateNonZeroAndMultiplySum.js";
 import { isHappy } from "./src/happyNumber.js";
 import { majorityElement } from "./src/majorityElement.js";
@@ -9,6 +10,7 @@ import { removeDuplicates } from "./src/removeDuplicates.js";
 import { romanToInt } from "./src/roman.js";
 import { mySqrt } from "./src/sqrt.js";
 import { findTarget } from "./src/targetPlus.js";
+import { timeRequiredToBuy } from "./src/timeToBuyTicket.js";
 import { findGender } from "./src/username.js";
 import { isAnagram } from "./src/validAnagram.js";
 
@@ -23,4 +25,6 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(majorityElement([3, 2, 3]));
 // console.log(romanToInt('MMMXLV'));
 // console.log(isValid('{'));
-console.log(calPoints(["1","C"]));
+// console.log(calPoints(["1","C"]));
+// console.log(clearDigits("d9"));
+console.log(timeRequiredToBuy([2,3,2], 2));
