@@ -8,7 +8,7 @@ The purpose of this repository is to strengthen my problem-solving skills, pract
 
 ## Languages
 
-Solutions may be written in:
+Solutions are written in:
 
 * TypeScript
 
