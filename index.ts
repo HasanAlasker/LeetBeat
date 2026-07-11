@@ -31,4 +31,5 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(clearDigits("d9"));
 // console.log(timeRequiredToBuy([2,3,2], 2));
 // console.log(makeGood("LeeEetcode"));
+// console.log(maxProfit([1,2]));
 console.log(maxProfit([1,2]));
