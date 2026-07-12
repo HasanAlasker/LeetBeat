@@ -1,6 +1,7 @@
 import { calPoints } from "./src/baseballGame.js";
 import { clearDigits } from "./src/clearDigits.js";
 import { sumAndMultiply } from "./src/concatenateNonZeroAndMultiplySum.js";
+import { deleteDuplicates } from "./src/deleteDupList.js";
 import { isHappy } from "./src/happyNumber.js";
 import { majorityElement } from "./src/majorityElement.js";
 import { makeGood } from "./src/makeStringGreat.js";
@@ -37,7 +38,8 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(maxProfit([1,2]));
 // console.log(reverseString(["h","e","l","l","o"]));
 
-const head1 = buildList([1, 2, 4]);
-const head2 = buildList([1, 3, 4]);
+const head1 = buildList([0,0,0,0,0]);
+// const head2 = buildList([1, 3, 4]);
 // console.log(reverseList(head));
-console.log(mergeTwoLists(head1, head2));
+// console.log(mergeTwoLists(head1, head2));
+console.log(deleteDuplicates(head1));
