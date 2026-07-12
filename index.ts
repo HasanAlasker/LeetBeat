@@ -7,9 +7,11 @@ import { majorityElement } from "./src/majorityElement.js";
 import { makeGood } from "./src/makeStringGreat.js";
 import { maxProfit } from "./src/maxProfit.js";
 import { mergeTwoLists } from "./src/mergeLists.js";
+import { middleNode } from "./src/middleNode.js";
 import { isPalindrome } from "./src/omar.js";
 import { isValid } from "./src/parantheses.js";
 import { myPow } from "./src/pow.js";
+import { arrayRankTransform } from "./src/rankTransform.js";
 import { removeDuplicates } from "./src/removeDuplicates.js";
 import { removeElements } from "./src/removeFromList.js";
 import { reverseString } from "./src/reverse.js";
@@ -20,6 +22,8 @@ import { findTarget } from "./src/targetPlus.js";
 import { timeRequiredToBuy } from "./src/timeToBuyTicket.js";
 import { findGender } from "./src/username.js";
 import { isAnagram } from "./src/validAnagram.js";
+
+// Arrays, strings, stacks, queues
 
 // findTarget();
 // findGender();
@@ -38,10 +42,15 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(makeGood("LeeEetcode"));
 // console.log(maxProfit([1,2]));
 // console.log(reverseString(["h","e","l","l","o"]));
+// console.log(arrayRankTransform([40,10,20,30]));
 
-const head1 = buildList([1, 2, 6, 3, 4, 5, 6]);
+
+// linked lists
+
+const head1 = buildList([1, 2, 6, 3, 4, 5, 6, 3]);
 // const head2 = buildList([1, 3, 4]);
 // console.log(reverseList(head));
 // console.log(mergeTwoLists(head1, head2));
 // console.log(deleteDuplicates(head1));
-console.log(removeElements(head1, 6));
+console.log(middleNode(head1));
+// console.log(removeElements(head1, 6));
