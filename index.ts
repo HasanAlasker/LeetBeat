@@ -1,6 +1,7 @@
 import { calPoints } from "./src/baseballGame.js";
 import { clearDigits } from "./src/clearDigits.js";
 import { sumAndMultiply } from "./src/concatenateNonZeroAndMultiplySum.js";
+import { containsDuplicate } from "./src/containsDuplicates.js";
 import { deleteDuplicates } from "./src/deleteDupList.js";
 import { isHappy } from "./src/happyNumber.js";
 import { majorityElement } from "./src/majorityElement.js";
@@ -17,6 +18,7 @@ import { removeElements } from "./src/removeFromList.js";
 import { reverseString } from "./src/reverse.js";
 import { buildList, reverseList } from "./src/reveseList.js";
 import { romanToInt } from "./src/roman.js";
+import { sequentialDigits } from "./src/seqDigits.js";
 import { mySqrt } from "./src/sqrt.js";
 import { findTarget } from "./src/targetPlus.js";
 import { timeRequiredToBuy } from "./src/timeToBuyTicket.js";
@@ -43,6 +45,8 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(maxProfit([1,2]));
 // console.log(reverseString(["h","e","l","l","o"]));
 // console.log(arrayRankTransform([40,10,20,30]));
+// console.log(sequentialDigits(100, 200))
+console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
 
 
 // linked lists
@@ -52,5 +56,5 @@ const head1 = buildList([1, 2, 6, 3, 4, 5, 6, 3]);
 // console.log(reverseList(head));
 // console.log(mergeTwoLists(head1, head2));
 // console.log(deleteDuplicates(head1));
-console.log(middleNode(head1));
+// console.log(middleNode(head1));
 // console.log(removeElements(head1, 6));
