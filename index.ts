@@ -1,9 +1,11 @@
+import { addStrings } from "./src/addStrings.js";
 import { calPoints } from "./src/baseballGame.js";
 import { clearDigits } from "./src/clearDigits.js";
 import { sumAndMultiply } from "./src/concatenateNonZeroAndMultiplySum.js";
 import { containsDuplicate } from "./src/containsDuplicates.js";
 import { deleteDuplicates } from "./src/deleteDupList.js";
 import { isHappy } from "./src/happyNumber.js";
+import { licenseKeyFormatting } from "./src/licenseKeyFormatting.js";
 import { majorityElement } from "./src/majorityElement.js";
 import { makeGood } from "./src/makeStringGreat.js";
 import { maxProfit } from "./src/maxProfit.js";
@@ -21,6 +23,7 @@ import { romanToInt } from "./src/roman.js";
 import { sequentialDigits } from "./src/seqDigits.js";
 import { mySqrt } from "./src/sqrt.js";
 import { findTarget } from "./src/targetPlus.js";
+import { thirdMax } from "./src/thirdMax.js";
 import { timeRequiredToBuy } from "./src/timeToBuyTicket.js";
 import { findGender } from "./src/username.js";
 import { isAnagram } from "./src/validAnagram.js";
@@ -46,8 +49,9 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(reverseString(["h","e","l","l","o"]));
 // console.log(arrayRankTransform([40,10,20,30]));
 // console.log(sequentialDigits(100, 200))
-console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
-
+// console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
+// console.log(thirdMax([3, 2, 1]))
+console.log(licenseKeyFormatting("5F3Z-2e-9-w", 4));
 
 // linked lists
 
