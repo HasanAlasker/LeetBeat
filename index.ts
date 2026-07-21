@@ -11,6 +11,7 @@ import { makeGood } from "./src/makeStringGreat.js";
 import { maxProfit } from "./src/maxProfit.js";
 import { mergeTwoLists } from "./src/mergeLists.js";
 import { middleNode } from "./src/middleNode.js";
+import { mostCommonWord } from "./src/mostCommonWord.js";
 import { isPalindrome } from "./src/omar.js";
 import { isValid } from "./src/parantheses.js";
 import { myPow } from "./src/pow.js";
@@ -51,7 +52,12 @@ import { isAnagram } from "./src/validAnagram.js";
 // console.log(sequentialDigits(100, 200))
 // console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
 // console.log(thirdMax([3, 2, 1]))
-console.log(licenseKeyFormatting("5F3Z-2e-9-w", 4));
+// console.log(licenseKeyFormatting("5F3Z-2e-9-w", 4));
+console.log(
+  mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", [
+    "hit",
+  ]),
+);
 
 // linked lists
 
